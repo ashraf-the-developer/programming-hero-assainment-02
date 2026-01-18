@@ -19,9 +19,10 @@ li ,a{
     list-style: none;
     text-decoration: none;
 }
-hr{
-    border: 2px;
-}
+/* hr{
+
+
+} */
 
 
 /* Nav section */
@@ -64,3 +65,92 @@ hr{
   transform: scale(1.40);
   opacity: 0.9;
 }
+
+ /* Hero Section */
+
+
+ .hero-section{
+  height:760px;
+  background: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+ }
+ .hero-section .for-mic-badge{
+    position: relative;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 450px;
+    padding-top: 155px;
+    margin-bottom: 30px;
+    background: url(./assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center 90%;
+
+ }
+  .hero-section .for-mic-badge .badge{
+    position: absolute;
+    z-index: 1;
+    top: 21%;
+    left: 70%;
+  }
+  .hero-section .for-mic-badge .badge h5{
+    margin: 0 auto;
+    background-color: #00FF88;
+    width: 75px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1A0B2E;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    box-shadow: 0 0 20px rgba(0, 255, 143, 0.6); 
+    cursor: pointer;
+  }
+  .hero-section h1{
+    font-weight: 800;
+    font-size: 60px;
+    color: var(--text-color);
+    margin-bottom: 8px;
+  }
+  .hero-section p{
+    font-size: 16px;
+    color: var(--text-color);
+    opacity: 80%;
+    margin-bottom: 24px;
+  }
+  .hero-section .btn-1{
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-color);
+    border-radius: 1000px;
+    margin-right: 8px;
+    background : linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%); 
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+   .btn-1:hover{
+    transform: scale(1.10);
+  opacity: 0.9;
+
+}
+  
+  .hero-section .btn-2{
+    border: 1px solid #00FF88;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #00FF88;
+    border-radius: 1000px;
+    background: transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+ .btn-2:hover{
+    transform: scale(1.10);
+  opacity: 0.9;
+
+}
+
