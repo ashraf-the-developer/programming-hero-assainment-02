@@ -1,0 +1,66 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* Shared styles */
+:root{
+    --background-color-1:#1A0B2E;
+    --text-color:#FFFFFF;
+}
+li ,a{
+    list-style: none;
+    text-decoration: none;
+}
+hr{
+    border: 2px;
+}
+
+
+/* Nav section */
+.nav-bar{
+    max-width: 1600px;
+    background-color:var(--background-color-1) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+.nav-bar .logo{
+    max-width: 219px;
+}
+.nav-bar .menu ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+.nav-bar .menu ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--text-color);
+
+}
+.nav-bar .subscribe-btn{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-color);
+    padding: 12px 16px;
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+     transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.subscribe-btn:hover {
+  transform: scale(1.40);
+  opacity: 0.9;
+}
