@@ -16,16 +16,12 @@ body{
     --text-color:#FFFFFF;
     --second-bg-color:#230E3D;
     --card-bg-color:#351165;
+    --card-bg-color-2:#250D44;
 }
 li ,a{
     list-style: none;
     text-decoration: none;
 }
-/* hr{
-
-
-} */
-
 
 /* Nav section */
 .nav-bar{
@@ -180,7 +176,7 @@ li ,a{
   opacity: 80%;
 }
 .podcast-section .podcast .podcast-heading p .podcast-peragraph{
-  cursor: pointer;
+  cursor: default;
 }
 .podcast-section .podcast hr{
   margin: 80px 200px;
@@ -400,5 +396,183 @@ opacity: 60%;
 }
 
 /* end */
+
+/* Featured Episodes Section */
+
+
+.Featured-Episodes{
+  background-color: var(--background-color-1);
+  text-align: center;
+  padding-bottom: 120px;
+
+}
+.Featured-Episodes h1{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--text-color);
+  padding-top: 120px;
+  margin-bottom: 40px;
+}
+.Featured-Episodes .Featured-Episodes-cards{
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  
+}
+.Featured-Episodes .Featured-Episodes-cards .episodes-card{
+  background-color: var(--card-bg-color-2);
+  max-width: 380px;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+
+.Featured-Episodes .Featured-Episodes-cards .episodes-card .video iframe{
+  border: none;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+.Featured-Episodes .Featured-Episodes-cards h2{
+  text-align: start;
+  padding: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text-color);
+}
+.Featured-Episodes .Featured-Episodes-cards p{
+  padding: 0 24px 12px 24px;
+  text-align: start;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+  opacity: 60%;
+
+}
+.Featured-Episodes .Featured-Episodes-cards .time{
+  display: flex;
+  padding: 0 24px 24px;
+}
+.Featured-Episodes .Featured-Episodes-cards .time .watch{
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
+}
+.Featured-Episodes .Featured-Episodes-cards .time .watch img{
+  height: 100%;
+  width: 100%;
+}
+.Featured-Episodes .Featured-Episodes-cards .time .minutes p{
+  margin-left: -14px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00FF88;
+}
+.the-host-section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.the-host-section h1{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+.the-host-section .the-host-card{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background-color: var(--card-bg-color-2);
+  border-radius: 40px;
+}
+.the-host-section .the-host-card .host-img{
+  padding: 40px;
+}
+.the-host-section .the-host-card .host-details{
+  max-width: 896px;
+  margin: 0 auto;
+}
+.the-host-section .the-host-card .host-details h3{
+  text-align: start;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--text-color);
+}
+.the-host-section .the-host-card .host-details p{
+  text-align: start;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+  opacity: 60%;
+  margin-bottom: 16px;
+}
+.the-host-section .the-host-card .host-details .social-icons{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.the-host-section .the-host-card .host-details .social-icons .icon{
+  height: 40px;
+  width: 40px;
+  border: 1px solid #533C72;
+  padding: 10px;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+.the-host-section .the-host-card .host-details .social-icons .icon img{
+  height: 100%;
+  width: 100%;
+}
+
+/* footer section */
+
+.footer-section{
+  text-align: center;
+}
+.footer-section .techwave-footer{
+  background: url(./assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 120px;
+}
+.footer-section .techwave-footer .footer-logo{
+  margin-bottom: 32px;
+}
+.footer-section .techwave-footer .social-podcasts{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 32px;
+
+}
+.footer-section .techwave-footer .social-podcasts .podcast-logo{
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+.footer-section .techwave-footer .social-podcasts .podcast-logo p{
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-color);
+  opacity: 60%;
+}
+.footer-section .techwave-footer .copyrights p{
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+  opacity: 60%;
+
+}
+
+/* Responsive design Start */
+
+
+/* END */
+
+
+
 
 
