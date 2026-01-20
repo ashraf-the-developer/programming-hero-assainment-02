@@ -638,14 +638,21 @@ opacity: 60%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-
-
-
-
+  .footer-section .techwave-footer{
+    background: url(./assets/mobile-footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 576px;
+    height: 460px;
+  }
+  .footer-section .techwave-footer .footer-logo-for-mobile{
+    margin-bottom: 24px;
+  }
 
   /* display hidden */
 
-.nav-bar .menu, .subscribe-btn{
+.nav-bar .menu, .subscribe-btn ,.footer-section .techwave-footer .footer-logo{
   display: none;
 }
 
@@ -656,9 +663,10 @@ opacity: 60%;
 
 
 @media (min-width:577px) {
-  .nav-bar .for-mobile{
+  .nav-bar .for-mobile, .footer-section .techwave-footer .footer-logo-for-mobile{
     display: none;
   }
+  {}
 
 
   
