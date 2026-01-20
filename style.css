@@ -568,7 +568,101 @@ opacity: 60%;
 }
 
 /* Responsive design Start */
+@media (max-width:576px) {
+  body{
+    max-width: 576px;
+    margin: 0 auto;
+  }
+  .nav-bar .logo{
+    margin-right: 283px;
 
+  }
+  .nav-bar .for-mobile{
+    text-align: end;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+  }
+  .hero-section p{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .podcast-section .podcast .podcast-heading p{
+    width: 530px;
+  }
+  .podcast-section .podcast hr{
+    max-width: 530px;
+    margin: 40px auto;
+    
+  }
+  .podcast-section .podcast .podcast-achives{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .why-choose-techwave .techwave-details-div .why-choose-techwave-cards{
+    grid-template-columns: 1fr;
+    max-width: 530px;
+    margin: 0 auto;
+  }
+  .Featured-Episodes .Featured-Episodes-cards{
+    flex-direction: column;
+  }
+  .the-host-section .the-host-card{
+    max-width: 530px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .the-host-section .the-host-card .host-details{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .the-host-section .the-host-card .host-details h3{
+    text-align: center;
+  }
+  .the-host-section .the-host-card .host-details p{
+    text-align: center;
+  }
+  .the-host-section .the-host-card .host-details .social-icons{
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .footer-section{
+    max-width: 576px;
+    margin: 0 auto;
+  }
+  .footer-section .techwave-footer .social-podcasts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+
+
+
+  /* display hidden */
+
+.nav-bar .menu, .subscribe-btn{
+  display: none;
+}
+
+
+  
+}
+
+
+
+@media (min-width:577px) {
+  .nav-bar .for-mobile{
+    display: none;
+  }
+
+
+  
+}
 
 
 /* END */
